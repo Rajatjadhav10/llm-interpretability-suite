@@ -1,0 +1,16 @@
+{
+  "total_articles": 28999,
+  "total_characters": 8597399,
+  "avg_length": 296.47,
+  "min_length": 1,
+  "max_length": 384,
+  "median_length": 319,
+  "chunking_enabled": true,
+  "chunk_size": 384,
+  "cleaning_config": {
+    "remove_citations": true,
+    "remove_infoboxes": false,
+    "remove_references": true,
+    "clean_markup": true
+  }
+}

@@ -1,0 +1,29 @@
+dataset:
+  name: "wikipedia"
+  version: "20220301.en"
+  streaming: true
+  trust_remote_code: true
+
+processing:
+  max_articles: 5000  # More articles for RAG
+  min_article_length: 200  # Longer minimum for quality
+  max_article_length: 10000  # Shorter max for consistent chunks
+  chunk_size: 384  # Optimal for many embedding models
+  chunk_overlap: 64  # ~16% overlap
+  enable_chunking: true  # Essential for RAG
+
+cleaning:
+  remove_citations: true
+  remove_infoboxes: false  # Keep structured data for context
+  remove_references: true
+  remove_external_links: true
+  clean_markup: true
+
+output:
+  format: "both"  # Both JSONL and Parquet for flexibility
+  output_dir: "./output/rag"
+  filename_prefix: "wikipedia_rag"
+
+logging:
+  level: "INFO"
+  log_file: "./logs/rag_builder.log"

@@ -1,0 +1,151 @@
+2025-05-29T19:17:13.602135-0500 | INFO | main | Starting Wikipedia dataset exploration...
+2025-05-29T19:17:13.602345-0500 | INFO | load_dataset | Loading Wikipedia dataset: wikipedia
+2025-05-29T19:17:15.091687-0500 | INFO | load_dataset | Dataset loaded successfully!
+2025-05-29T19:17:15.091811-0500 | INFO | inspect_sample | Inspecting first 3 samples...
+2025-05-29T19:17:17.321985-0500 | INFO | inspect_sample | 
+--- Sample 1 ---
+2025-05-29T19:17:17.322422-0500 | INFO | inspect_sample | Title: Anarchism
+2025-05-29T19:17:17.322478-0500 | INFO | inspect_sample | Text length: 43985
+2025-05-29T19:17:17.322523-0500 | INFO | inspect_sample | ID: 12
+2025-05-29T19:17:17.322565-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Anarchism
+2025-05-29T19:17:17.322608-0500 | INFO | inspect_sample | Text preview: Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds...
+2025-05-29T19:17:17.322654-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-29T19:17:17.323504-0500 | INFO | inspect_sample | 
+--- Sample 2 ---
+2025-05-29T19:17:17.323556-0500 | INFO | inspect_sample | Title: Autism
+2025-05-29T19:17:17.323597-0500 | INFO | inspect_sample | Text length: 46773
+2025-05-29T19:17:17.323636-0500 | INFO | inspect_sample | ID: 25
+2025-05-29T19:17:17.323677-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Autism
+2025-05-29T19:17:17.323720-0500 | INFO | inspect_sample | Text preview: Autism is a neurodevelopmental disorder characterized by difficulties with social interaction and communication, and by restricted and repetitive behavior. Parents often notice signs during the first ...
+2025-05-29T19:17:17.323763-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-29T19:17:17.323963-0500 | INFO | inspect_sample | 
+--- Sample 3 ---
+2025-05-29T19:17:17.324049-0500 | INFO | inspect_sample | Title: Albedo
+2025-05-29T19:17:17.324103-0500 | INFO | inspect_sample | Text length: 22273
+2025-05-29T19:17:17.324150-0500 | INFO | inspect_sample | ID: 39
+2025-05-29T19:17:17.324192-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Albedo
+2025-05-29T19:17:17.324232-0500 | INFO | inspect_sample | Text preview: Albedo (; ) is the measure of the diffuse reflection of solar radiation out of the total solar radiation and measured on a scale from 0, corresponding to a black body that absorbs all incident radiati...
+2025-05-29T19:17:17.324273-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-29T19:17:17.326182-0500 | INFO | get_dataset_stats | Calculating dataset statistics from 50 samples...
+2025-05-29T19:17:18.985086-0500 | INFO | get_dataset_stats | Dataset Statistics:
+2025-05-29T19:17:18.985325-0500 | INFO | get_dataset_stats |   Samples checked: 50
+2025-05-29T19:17:18.985404-0500 | INFO | get_dataset_stats |   Average text length: 31670
+2025-05-29T19:17:18.985440-0500 | INFO | get_dataset_stats |   Min text length: 1047
+2025-05-29T19:17:18.985473-0500 | INFO | get_dataset_stats |   Max text length: 110448
+2025-05-29T19:17:18.985507-0500 | INFO | get_dataset_stats |   Common keys: ['text', 'url', 'title', 'id']
+2025-05-29T19:17:18.986049-0500 | INFO | main | Dataset statistics saved to: output/dataset_stats.json
+2025-05-29T19:17:18.986103-0500 | INFO | main | Day 1 exploration complete! 🎉
+2025-05-30T20:03:55.553768-0500 | INFO | main | Starting Wikipedia dataset exploration...
+2025-05-30T20:03:55.554164-0500 | INFO | load_dataset | Loading Wikipedia dataset: wikipedia
+2025-05-30T20:03:56.902705-0500 | INFO | load_dataset | Dataset loaded successfully!
+2025-05-30T20:03:56.903103-0500 | INFO | inspect_sample | Inspecting first 3 samples...
+2025-05-30T20:03:59.265291-0500 | INFO | inspect_sample | 
+--- Sample 1 ---
+2025-05-30T20:03:59.265520-0500 | INFO | inspect_sample | Title: Anarchism
+2025-05-30T20:03:59.265580-0500 | INFO | inspect_sample | Text length: 43985
+2025-05-30T20:03:59.265628-0500 | INFO | inspect_sample | ID: 12
+2025-05-30T20:03:59.265686-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Anarchism
+2025-05-30T20:03:59.265732-0500 | INFO | inspect_sample | Text preview: Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds...
+2025-05-30T20:03:59.265781-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-30T20:03:59.266081-0500 | INFO | inspect_sample | 
+--- Sample 2 ---
+2025-05-30T20:03:59.266135-0500 | INFO | inspect_sample | Title: Autism
+2025-05-30T20:03:59.266178-0500 | INFO | inspect_sample | Text length: 46773
+2025-05-30T20:03:59.266222-0500 | INFO | inspect_sample | ID: 25
+2025-05-30T20:03:59.266263-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Autism
+2025-05-30T20:03:59.266306-0500 | INFO | inspect_sample | Text preview: Autism is a neurodevelopmental disorder characterized by difficulties with social interaction and communication, and by restricted and repetitive behavior. Parents often notice signs during the first ...
+2025-05-30T20:03:59.266349-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-30T20:03:59.266528-0500 | INFO | inspect_sample | 
+--- Sample 3 ---
+2025-05-30T20:03:59.266574-0500 | INFO | inspect_sample | Title: Albedo
+2025-05-30T20:03:59.266614-0500 | INFO | inspect_sample | Text length: 22273
+2025-05-30T20:03:59.266654-0500 | INFO | inspect_sample | ID: 39
+2025-05-30T20:03:59.266693-0500 | INFO | inspect_sample | URL: https://en.wikipedia.org/wiki/Albedo
+2025-05-30T20:03:59.266734-0500 | INFO | inspect_sample | Text preview: Albedo (; ) is the measure of the diffuse reflection of solar radiation out of the total solar radiation and measured on a scale from 0, corresponding to a black body that absorbs all incident radiati...
+2025-05-30T20:03:59.266776-0500 | INFO | inspect_sample | Available keys: ['id', 'url', 'title', 'text']
+2025-05-30T20:03:59.268809-0500 | INFO | get_dataset_stats | Calculating dataset statistics from 50 samples...
+2025-05-30T20:04:00.778662-0500 | INFO | get_dataset_stats | Dataset Statistics:
+2025-05-30T20:04:00.779021-0500 | INFO | get_dataset_stats |   Samples checked: 50
+2025-05-30T20:04:00.779127-0500 | INFO | get_dataset_stats |   Average text length: 31670
+2025-05-30T20:04:00.779186-0500 | INFO | get_dataset_stats |   Min text length: 1047
+2025-05-30T20:04:00.779237-0500 | INFO | get_dataset_stats |   Max text length: 110448
+2025-05-30T20:04:00.779286-0500 | INFO | get_dataset_stats |   Common keys: ['url', 'title', 'id', 'text']
+2025-05-30T20:04:00.779863-0500 | INFO | main | Dataset statistics saved to: output/dataset_stats.json
+2025-05-30T20:04:00.779960-0500 | INFO | main | Day 1 exploration complete! 🎉
+2025-05-30 20:05:35.356 | INFO     | __main__:explore_dataset:28 - 🔍 Exploring Wikipedia dataset...
+2025-05-30 20:05:35.357 | INFO     | src.explorer:load_dataset:16 - Loading Wikipedia dataset: wikipedia
+2025-05-30 20:05:37.164 | INFO     | src.explorer:load_dataset:25 - Dataset loaded successfully!
+2025-05-30 20:05:37.165 | INFO     | src.explorer:inspect_sample:38 - Inspecting first 3 samples...
+2025-05-30 20:05:41.634 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 1 ---
+2025-05-30 20:05:41.636 | INFO     | src.explorer:inspect_sample:48 - Title: Anarchism
+2025-05-30 20:05:41.636 | INFO     | src.explorer:inspect_sample:49 - Text length: 43985
+2025-05-30 20:05:41.636 | INFO     | src.explorer:inspect_sample:50 - ID: 12
+2025-05-30 20:05:41.636 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Anarchism
+2025-05-30 20:05:41.636 | INFO     | src.explorer:inspect_sample:56 - Text preview: Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds...
+2025-05-30 20:05:41.637 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 2 ---
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:48 - Title: Autism
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:49 - Text length: 46773
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:50 - ID: 25
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Autism
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:56 - Text preview: Autism is a neurodevelopmental disorder characterized by difficulties with social interaction and communication, and by restricted and repetitive behavior. Parents often notice signs during the first ...
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 3 ---
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:48 - Title: Albedo
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:49 - Text length: 22273
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:50 - ID: 39
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Albedo
+2025-05-30 20:05:41.638 | INFO     | src.explorer:inspect_sample:56 - Text preview: Albedo (; ) is the measure of the diffuse reflection of solar radiation out of the total solar radiation and measured on a scale from 0, corresponding to a black body that absorbs all incident radiati...
+2025-05-30 20:05:41.639 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:05:41.642 | INFO     | src.explorer:get_dataset_stats:67 - Calculating dataset statistics from 100 samples...
+2025-05-30 20:05:44.288 | INFO     | src.explorer:get_dataset_stats:110 - Dataset Statistics:
+2025-05-30 20:05:44.288 | INFO     | src.explorer:get_dataset_stats:111 -   Samples checked: 100
+2025-05-30 20:05:44.288 | INFO     | src.explorer:get_dataset_stats:112 -   Average text length: 31192
+2025-05-30 20:05:44.288 | INFO     | src.explorer:get_dataset_stats:113 -   Min text length: 389
+2025-05-30 20:05:44.289 | INFO     | src.explorer:get_dataset_stats:114 -   Max text length: 110448
+2025-05-30 20:05:44.289 | INFO     | src.explorer:get_dataset_stats:115 -   Common keys: ['url', 'title', 'id', 'text']
+2025-05-30 20:05:44.289 | INFO     | __main__:explore_dataset:50 - ✅ Exploration complete! Stats saved to output/exploration_stats.json
+2025-05-30 20:05:44.289 | INFO     | __main__:main:184 - 🎉 All operations completed successfully!
+2025-05-30 20:06:24.654 | INFO     | __main__:explore_dataset:28 - 🔍 Exploring Wikipedia dataset...
+2025-05-30 20:06:24.654 | INFO     | src.explorer:load_dataset:16 - Loading Wikipedia dataset: wikipedia
+2025-05-30 20:06:26.602 | INFO     | src.explorer:load_dataset:25 - Dataset loaded successfully!
+2025-05-30 20:06:26.603 | INFO     | src.explorer:inspect_sample:38 - Inspecting first 3 samples...
+2025-05-30 20:06:29.889 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 1 ---
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:48 - Title: Anarchism
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:49 - Text length: 43985
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:50 - ID: 12
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Anarchism
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:56 - Text preview: Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds...
+2025-05-30 20:06:29.890 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 2 ---
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:48 - Title: Autism
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:49 - Text length: 46773
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:50 - ID: 25
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Autism
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:56 - Text preview: Autism is a neurodevelopmental disorder characterized by difficulties with social interaction and communication, and by restricted and repetitive behavior. Parents often notice signs during the first ...
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:47 - 
+--- Sample 3 ---
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:48 - Title: Albedo
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:49 - Text length: 22273
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:50 - ID: 39
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:51 - URL: https://en.wikipedia.org/wiki/Albedo
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:56 - Text preview: Albedo (; ) is the measure of the diffuse reflection of solar radiation out of the total solar radiation and measured on a scale from 0, corresponding to a black body that absorbs all incident radiati...
+2025-05-30 20:06:29.892 | INFO     | src.explorer:inspect_sample:59 - Available keys: ['id', 'url', 'title', 'text']
+2025-05-30 20:06:29.897 | INFO     | src.explorer:get_dataset_stats:67 - Calculating dataset statistics from 100 samples...
+2025-05-30 20:06:32.070 | INFO     | src.explorer:get_dataset_stats:110 - Dataset Statistics:
+2025-05-30 20:06:32.071 | INFO     | src.explorer:get_dataset_stats:111 -   Samples checked: 100
+2025-05-30 20:06:32.071 | INFO     | src.explorer:get_dataset_stats:112 -   Average text length: 31192
+2025-05-30 20:06:32.071 | INFO     | src.explorer:get_dataset_stats:113 -   Min text length: 389
+2025-05-30 20:06:32.071 | INFO     | src.explorer:get_dataset_stats:114 -   Max text length: 110448
+2025-05-30 20:06:32.071 | INFO     | src.explorer:get_dataset_stats:115 -   Common keys: ['text', 'url', 'title', 'id']
+2025-05-30 20:06:32.072 | INFO     | __main__:explore_dataset:50 - ✅ Exploration complete! Stats saved to output/exploration_stats.json
+2025-05-30 20:06:32.072 | INFO     | __main__:main:184 - 🎉 All operations completed successfully!
+2025-05-30 20:08:01.858 | ERROR    | __main__:validate_config:82 - Configuration file not found: configs/default.yaml
+2025-05-30 20:08:10.657 | INFO     | __main__:validate_config:99 - ✅ Configuration validation passed
+2025-05-30 20:08:10.657 | INFO     | __main__:main:184 - 🎉 All operations completed successfully!

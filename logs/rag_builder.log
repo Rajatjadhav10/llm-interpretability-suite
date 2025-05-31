@@ -1,0 +1,20 @@
+2025-05-30 20:10:20.028 | INFO     | __main__:validate_config:99 - ✅ Configuration validation passed
+2025-05-30 20:10:20.028 | INFO     | __main__:build_dataset:55 - 🚀 Starting Wikipedia dataset building...
+2025-05-30 20:10:20.029 | INFO     | src.builder:build_dataset:30 - 🚀 Starting Wikipedia dataset building...
+2025-05-30 20:10:20.029 | INFO     | src.builder:_load_dataset:58 - Loading Wikipedia dataset: wikipedia
+2025-05-30 20:10:21.791 | INFO     | src.builder:_load_dataset:67 - Dataset loaded successfully!
+2025-05-30 20:10:21.792 | INFO     | src.builder:_process_articles:80 - Processing up to 5000 articles...
+2025-05-30 20:10:39.739 | INFO     | src.builder:_process_articles:108 - Processed 28999 article chunks
+2025-05-30 20:10:40.246 | INFO     | src.builder:_save_jsonl:149 - Saved JSONL: output/rag/wikipedia_rag.jsonl (28999 articles)
+2025-05-30 20:10:40.337 | INFO     | src.builder:_save_parquet:163 - Saved Parquet: output/rag/wikipedia_rag.parquet (28999 articles)
+2025-05-30 20:10:40.337 | INFO     | src.builder:_save_sample:174 - Saved sample: output/rag/wikipedia_rag_sample.json (10 articles)
+2025-05-30 20:10:40.352 | INFO     | src.builder:_generate_statistics:214 - Statistics saved: output/rag/build_statistics.json
+2025-05-30 20:10:40.353 | INFO     | src.builder:build_dataset:46 - ✅ Dataset building complete!
+2025-05-30 20:10:40.357 | INFO     | __main__:build_dataset:61 - ✅ Dataset building completed successfully!
+2025-05-30 20:10:40.357 | INFO     | __main__:build_dataset:62 - 📊 Statistics:
+2025-05-30 20:10:40.357 | INFO     | __main__:build_dataset:64 -   • Total articles: 28999
+2025-05-30 20:10:40.357 | INFO     | __main__:build_dataset:65 -   • Total characters: 8,597,399
+2025-05-30 20:10:40.357 | INFO     | __main__:build_dataset:66 -   • Average length: 296
+2025-05-30 20:10:40.358 | INFO     | __main__:build_dataset:67 -   • Output directory: output/rag
+2025-05-30 20:10:40.358 | INFO     | __main__:build_dataset:70 -   • Chunking: Enabled (size: 384)
+2025-05-30 20:10:40.358 | INFO     | __main__:main:184 - 🎉 All operations completed successfully!

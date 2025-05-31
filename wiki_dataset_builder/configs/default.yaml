@@ -1,0 +1,29 @@
+dataset:
+  name: "wikipedia"
+  version: "20220301.en"
+  streaming: true
+  trust_remote_code: true
+
+processing:
+  max_articles: 1000  # Start small for testing
+  min_article_length: 100
+  max_article_length: 50000
+  chunk_size: 512
+  chunk_overlap: 50
+  enable_chunking: false
+
+cleaning:
+  remove_citations: true
+  remove_infoboxes: true
+  remove_references: true
+  remove_external_links: true
+  clean_markup: true
+
+output:
+  format: "jsonl"  # Options: jsonl, parquet, both
+  output_dir: "./output"
+  filename_prefix: "wikipedia_clean"
+
+logging:
+  level: "INFO"
+  log_file: "./logs/builder.log"

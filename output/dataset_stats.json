@@ -1,0 +1,24 @@
+{
+  "total_samples_checked": 50,
+  "avg_text_length": 31669.56,
+  "min_text_length": 1047,
+  "max_text_length": 110448,
+  "common_keys": [
+    "url",
+    "title",
+    "id",
+    "text"
+  ],
+  "sample_titles": [
+    "Anarchism",
+    "Autism",
+    "Albedo",
+    "A",
+    "Alabama",
+    "Achilles",
+    "Abraham Lincoln",
+    "Aristotle",
+    "An American in Paris",
+    "Academy Award for Best Production Design"
+  ]
+}
